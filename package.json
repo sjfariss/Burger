@@ -1,17 +1,24 @@
 {
-  "name": "mysql-sequelize-heroku",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "Eat Da Burger #14",
+  "description": "Home #14 Eat da Burger",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjfariss/Burger.git"
+  },
   "author": "Sharon Johnsen Fariss",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjfariss/Burger/issues"
+  },
+  "homepage": "https://github.com/sjfariss/Burger#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mysql": "^2.16.0"
