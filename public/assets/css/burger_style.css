@@ -1,0 +1,66 @@
+body {
+	font-family: 'Times', serif;
+	background-color: rgb(0, 89, 255);
+	height: 100%;
+}
+.wrapper {
+	min-height: 80%;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}	
+.jumbotron {
+	background-image: url("https://www.nextpittsburgh.com/wp-content/uploads/2018/03/Burgers-cropped.png");
+	background-image: "image(fluid)";
+
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.card-header {
+	background-color: rgb(204, 243, 255);
+	font-size: 20px;	
+}
+
+.btn {
+	background-color: #7DA315;
+}
+
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+
+.fa-star {
+	color: rgb(181, 14, 28);
+}
+
+.lead {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.card-body {
+	background-color: rgb(229, 245, 248);
+	background: linear-gradient(to right, rgba(255, 196, 0, 0), rgba(255, 153, 0, 0.5));
+}
+
+input[type="text"] {
+	background-color: #FEFEF2;
+}
+
+footer {
+    font-size: 15px;
+    padding-top: 20px;
+    min-height: 10%;
+    overflow: auto;
+    color: #0a0066;
+  }
